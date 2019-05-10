@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './ss/style.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <h2 className="logo">Oscars 2019</h2>
+        <ul class="nav-menu">
+          <li><a class="nav-menu__link" href="#">Home</a></li>
+          <li><a class="nav-menu__link" href="#">Best Actor</a></li>
+          <li><a class="nav-menu__link" href="#">Best Actress</a></li>
+          <li><a class="nav-menu__link" href="#">Best Films</a></li>
+        </ul>
+      </nav>
     </div>
   );
 }
