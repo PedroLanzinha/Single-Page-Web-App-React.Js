@@ -44,11 +44,18 @@ body {
       border-radius: 5px;
       padding: 3px 8px;
       background-color: white;
+      transition: all 0.3s ease-in-out;
   }
   
-  .nav-menu__link{
+  .nav-menu__link:hover{
     border: 1px solid black;
     background-color: rgb(228,228,228);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
+
+  .logo-link{
+      color: white;
+      text-decoration: none;
+  }
+
