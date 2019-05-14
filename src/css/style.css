@@ -75,8 +75,15 @@ body {
       background-image: './images/oscars.jpg';
       background-size: cover;
       margin-bottom: 50px;
-
+      transition: all 0.3s ease-in-out;
   }
+
+.thumbnail-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+}
 
 .home-thumbnail-1,
 .home-thumbnail-2,
@@ -84,5 +91,24 @@ body {
     background-size: cover;
     width: 200px;
     height: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1{
+    background-image: './images/oscars.jpg';
+}
+
+.home-thumbnail-2{
+    background-image: './images/oscars.jpg';
+}
+
+.home-thumbnail-3{
+    background-image: './images/oscars.jpg';
+}
+
+.home-image:hover {
+    background-image: ;
+    cursor: pointer;
+    transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
