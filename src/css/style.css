@@ -112,3 +112,10 @@ body {
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
+
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
